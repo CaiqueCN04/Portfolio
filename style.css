@@ -48,3 +48,91 @@ li{
     padding: 15px;
     margin: 10px;
 }
+
+.sobreSkills{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 600px;
+    font-size: 17px;
+    align-items: center;
+}
+.sobre{
+    width: 40%;
+}
+
+article{
+    padding: 8%;
+}
+
+.firstLine{
+    margin-top: 15px;
+}
+
+.secondLine{
+    margin-top: 15px;
+}
+
+.thirdLine{
+    margin-top: 15px;
+}
+
+.fourthLine{
+    margin-top: 15px;
+}
+
+.imgSkills{
+    height: 80px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.imgSkills:hover{
+    height: 120px;
+    padding: 20px; 
+}
+
+.skills{
+    margin-top: 100px;
+}
+
+.icons{
+    margin-top: 15px;
+}
+.iconsBaixo{
+    margin-left: 80px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.imagensContato{
+    flex-direction: row;
+    padding-top: 25px;
+}
+
+.imgContato{
+    height: 120px;
+    margin: 30px;
+}
+
+.imgContato:hover{
+    height: 160px;
+
+}
+
+section p{
+    margin-top: 20px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    align-items: center;
+    text-align: center;
+}
