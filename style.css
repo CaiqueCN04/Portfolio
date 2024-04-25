@@ -32,6 +32,20 @@ li{
     list-style: none;
 }
 
+.visitante{
+    display: flex;
+    flex-direction: row;
+}
+
+#nomeVisitante{
+    margin: none;
+}
+
+.divVisita{
+    display: flex;
+    flex-direction: row;
+}
+
 .apresentacao{
     display: flex;
     flex-direction: row;
