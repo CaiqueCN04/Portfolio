@@ -14,18 +14,18 @@
             Portfólio
         </h1>
         <ul>
-            <li>Home</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#linkContato">Contato</a></li>
         </ul>
     </nav>
     <main>
-        <div class="apresentacao" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="2000">
+        <div class="apresentacao" id="home" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="2000">
             
             <section class="textCaique" data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="2000">
                 <div class="divVisita">
                     <h2 class="visitante">
-                        Olá, &nbsp<h2 id="nomeVisitante"></h2>
+                        Olá &nbsp<h2 id="nomeVisitante"></h2><h2>,</h2>
                     </h2>
                 </div>
                 
@@ -40,7 +40,7 @@
             
         </div>
 
-        <div class="sobreSkills">
+        <div class="sobreSkills" id="sobre">
             <article class="sobre" data-aos="fade-right" data-aos-delay="50" data-aos-duration="4000">
                 <h1>
                     SOBRE
@@ -66,7 +66,7 @@
                     SKILLS
                 </h1>
                 <section class="icons" > 
-                    <div class="iconsCima" data-aos="fade-left" data-aos-delay="50" data-aos-duration="4000">
+                    <div class="iconsCima" data-aos="fade-right" data-aos-delay="50" data-aos-duration="4000">
                         <img src="./imagens/html.png" alt="" class="imgSkills">
                         <img src="./imagens/css-3.png" alt="" class="imgSkills">
                         <img src="./imagens/js.png" alt="" class="imgSkills">
@@ -80,24 +80,27 @@
             </aside>  
         </div>
         
-        <section class="contato">
-            <h1>
-                CONTATO
-            </h1>
-            <p>
-                formas de contato:
-            </p>
+        <section class="contato" id="linkContato">
+            <div class="textContato">
+                <h1>
+                    CONTATO
+                </h1>
+                <p>
+                    formas de contato:
+                </p>
+            </div>
+            
             <div class="imagensContato"  data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="2000">
-                <a href="mailto:"><img src="./imagens/email.png" alt="" class="imgContato"></a>
-                <a href="https://www.linkedin.com/in/caique-chagas-nitta-54500b249/"><img src="./imagens/linkedin.jpg" alt="" class="imgContato"></a>
-                <a href="https://wa.me/5511998949616?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio"><img src="./imagens/whattsapp.png" alt="" class="imgContato"></a>
+                <a href="mailto:"><img src="./imagens/email.png" alt="" class="imgContato"id="email"></a>
+                <a href="https://www.linkedin.com/in/caique-chagas-nitta-54500b249/"><img src="./imagens/linkedin.jpg" alt="" class="imgContato" id="linkedin"></a>
+                <a href="https://wa.me/5511998949616?text=Ol%C3%A1%2C%20vim%20pelo%20portf%C3%B3lio"><img src="./imagens/whattsapp.png" alt="" class="imgContato" id="wpp"></a>
             </div>
             
         </section>
     </main>
     <footer>
         <h5>
-            developed by Caique Chagas Nitta 
+            &copy; developed by Caique Chagas Nitta 
         </h5>
         <h5>
             2024
