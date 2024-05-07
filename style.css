@@ -18,7 +18,7 @@ nav {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 96%;
     background-color: #333; /* Cor de fundo da navegação */
     z-index: 1000; /* Garante que a navegação esteja sempre acima do conteúdo */
     transition: top 5s ease; /* Adiciona transição suave ao mudar a propriedade 'top' */
@@ -192,4 +192,51 @@ footer{
     background-color: black;
     align-items: center;
     text-align: center;
+}
+
+@media (min-width:768px) and (max-width: 1024px) {
+    .sobreSkills{
+        display: flex;
+        font-size: 16px;   
+        align-items: center;
+    }
+
+    .imgSkills{
+        height: 100px;
+        padding: 20px;
+    }
+    .imgSkills:hover{
+        height: 92px;
+        padding: 20px; 
+    }
+}
+
+
+@media (max-width: 700px){
+    nav h1{
+        margin-left: 10px;
+    }
+    nav ul{
+        margin-right: 10px;
+    }
+
+    .textCaique{
+        font-size: 17px;
+
+    }
+    .fotoPessoal{
+        height: 500px;
+    }
+    .apresentacao{
+        height: 550px;
+    }
+
+    .sobreSkills{
+        flex-direction: column;
+        height: 1200px;
+    }
+    .sobre{
+        width: 100%;
+        margin-top: 27px;
+    }
 }
