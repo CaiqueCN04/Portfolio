@@ -240,3 +240,54 @@ footer{
         margin-top: 27px;
     }
 }
+
+@media (max-width: 428px){
+    .fotoPessoal{
+        height: 500px;
+    }
+    .divVisita{
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .textCaique h2{
+        font-size: 17px;
+    }
+    .textCaique h3{
+        font-size: 17px;
+    }
+    .apresentacao{
+        height:700px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imgSkills{
+        height: 74px;
+        padding: 20px;
+    }
+    .imgSkills:hover{
+        height: 66px;
+        padding: 20px; 
+    }
+    .sobreSkills{
+        height: max-content;
+    }
+    .sobre{
+        margin-top: 50px;  
+    }
+    .imgContato{
+        height: 80px;
+        margin: 30px;
+    }
+    
+    .imgContato:hover{
+        height: 70px;
+    }
+    #email{
+        height: 73px;
+    }
+    #email:hover{
+        height: 63px;
+    }
+
+}
