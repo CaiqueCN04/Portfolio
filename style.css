@@ -212,7 +212,7 @@ footer{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 768px){
     nav h1{
         margin-left: 10px;
     }
