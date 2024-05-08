@@ -140,6 +140,8 @@ article{
 }
 .iconsBaixo{
     margin-left: 8px;
+    display: flex;
+    flex-direction: row;
 }
 
 .contato{
@@ -242,6 +244,12 @@ footer{
 }
 
 @media (max-width: 428px){
+    nav{
+        width: 94%;
+    }
+    body{
+        width: 100%;
+    }
     .fotoPessoal{
         height: 500px;
     }
@@ -290,4 +298,95 @@ footer{
         height: 63px;
     }
 
+}
+
+@media (min-width: 1200px){
+    nav{
+        width:95%;
+    }
+    
+    .apresentacao{
+        height: 800px;
+    }
+
+    .sobreSkills{
+        height: 800px;
+    }
+    .fotoPessoal{
+        margin-left: 60px;
+        align-self: self-end ;
+    }
+}
+
+.textConhecimento{
+    visibility: hidden;
+    width: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin-top: 0;
+   
+}
+
+.conhecimento:hover .textConhecimento{
+    visibility: visible;
+}
+
+.conhecimento:hover{
+    margin-bottom: 30px;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+.conhecimento{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+
+.iconsCima{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.textJSJAVA{
+    visibility: hidden;
+    width: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 30px;
+   
+}
+
+.jsjava:hover .textJSJAVA{
+    visibility: visible;
+}
+
+.jsjava:hover{
+    margin-bottom: 30px;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+.jsjava{
+    position: relative;
+    display: inline-block;
 }
