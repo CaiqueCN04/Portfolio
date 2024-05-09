@@ -244,9 +244,7 @@ footer{
 }
 
 @media (max-width: 428px){
-    nav{
-        width: 94%;
-    }
+   
     body{
         width: 100%;
     }
@@ -297,6 +295,17 @@ footer{
     #email:hover{
         height: 63px;
     }
+
+    .conhecimento:hover{
+        margin-bottom: 30px;
+        font-size: 12px;
+        align-items: center;
+    }
+   .textJSJAVA{
+    display: flex;
+    align-items: center;
+   }
+    
 
 }
 
@@ -390,3 +399,4 @@ footer{
     position: relative;
     display: inline-block;
 }
+
