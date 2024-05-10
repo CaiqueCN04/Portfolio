@@ -244,7 +244,9 @@ footer{
 }
 
 @media (max-width: 428px){
-   
+   nav{
+    width: 89%;
+   }
     body{
         width: 100%;
     }
@@ -325,6 +327,47 @@ footer{
         margin-left: 60px;
         align-self: self-end ;
     }
+}
+
+@media (min-width: 1440px){
+    nav{
+        width:97%;
+    }
+    
+    .apresentacao{
+        height: 1000px;
+    }
+
+    .sobreSkills{
+        height: 1000px;
+        font-size: 26px;
+    }
+    .fotoPessoal{
+        margin-left: 60px;
+        align-self: self-end;
+        height: 900px;
+    }
+
+    .contato{
+        height: 1000px;
+    }
+
+    .itensContato{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+    }
+    .textContato{
+        font-size: 36px;
+    }
+    .imagensContato img{
+        height: 200px;
+    }
+    .imagensContato img:hover{
+        height: 180px;
+    }
+
+
 }
 
 .textConhecimento{
