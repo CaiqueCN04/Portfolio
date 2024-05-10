@@ -272,6 +272,7 @@ footer{
     .imgSkills{
         height: 74px;
         padding: 20px;
+        margin-left: 20px;
     }
     .imgSkills:hover{
         height: 66px;
