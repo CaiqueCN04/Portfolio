@@ -323,6 +323,15 @@ footer{
     .sobreSkills{
         height: 800px;
     }
+    .imgSkills{
+        margin-left: 40px;
+    }
+    .textConhecimento{
+        margin-left: 40px;
+    }
+    .jsjava p{
+        margin-left: 70px;
+    }
     .fotoPessoal{
         margin-left: 60px;
         align-self: self-end ;
