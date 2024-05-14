@@ -44,3 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+// Seleciona a barra de navegação
+const navbar = document.getElementById('navbar');
+
+// Adiciona um evento de rolagem à janela
+window.onscroll = () => {
+    // Verifica a posição atual da rolagem
+    if (window.scrollY > 100) {
+        // Se a posição for maior que 50px do topo, adiciona a classe 'scrolled'
+        navbar.classList.add('scrolled');
+    } else {
+        // Caso contrário, remove a classe 'scrolled'
+        navbar.classList.remove('scrolled');
+    }
+};

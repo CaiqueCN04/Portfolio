@@ -13,30 +13,37 @@ body{
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
-    width: 96%;
-    background-color: #333; /* Cor de fundo da navegação */
+    font-size: 26px;
+    width: 100%;
+     /* Cor de fundo da navegação */
     z-index: 1000; /* Garante que a navegação esteja sempre acima do conteúdo */
     transition: top 5s ease; /* Adiciona transição suave ao mudar a propriedade 'top' */
-    padding: 25px;
+    padding: 18px;
+    transition: background-color 0.8s ease;
+    
 }
+
+.scrolled {
+    background-color: #333;
+}
+
 
 nav.fixed {
     position: fixed;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra sutil para destacar a navegação fixa */
+
 }
 
-nav h1{
-    margin-left: 100px;
-}
+
 nav ul{
     display: flex;
     gap: 30px;
-    margin-right: 300px;
+   
 }
 
 
@@ -215,6 +222,10 @@ footer{
 
 
 @media (max-width: 768px){
+    nav{
+        font-size: 15px;
+        width: 99%;
+    }
     nav h1{
         margin-left: 10px;
     }
@@ -244,9 +255,7 @@ footer{
 }
 
 @media (max-width: 428px){
-   nav{
-    width: 89%;
-   }
+
     body{
         width: 100%;
     }
@@ -277,6 +286,7 @@ footer{
     .imgSkills:hover{
         height: 66px;
         padding: 20px; 
+        transition: top 10s ease;
     }
     .sobreSkills{
         height: max-content;
@@ -287,10 +297,12 @@ footer{
     .imgContato{
         height: 80px;
         margin: 30px;
+        
     }
     
     .imgContato:hover{
         height: 70px;
+        
     }
     #email{
         height: 73px;
@@ -314,7 +326,7 @@ footer{
 
 @media (min-width: 1200px){
     nav{
-        width:97%;
+        width:98%;
     }
     
     .apresentacao{
