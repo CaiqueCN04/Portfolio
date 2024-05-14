@@ -5,7 +5,7 @@
 
 body{
     display: flex;
-    background-image: linear-gradient(to right,black, gray);
+    background-image: linear-gradient(to right,#4e50c7, #2f1f6b);
     font-family: 'Open Sans';
     color: whitesmoke;
     flex-direction: column;
@@ -29,7 +29,7 @@ nav {
 }
 
 .scrolled {
-    background-color: #333;
+    background-image: linear-gradient(to right,#4e50c7, #2f1f6b);
 }
 
 
@@ -86,6 +86,9 @@ li{
     padding-top: 25px;
     background-color: rgba(255, 255, 255, 0.11);
     width: 100%;
+    background-image: url(./imagens/fundoapresentacao.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -93,7 +96,10 @@ li{
     font-size: 20px;
     padding: 15px;
     margin: 10px;
+    
 }
+
+
 
 .sobreSkills{
     display: flex;
