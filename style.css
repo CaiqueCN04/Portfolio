@@ -361,13 +361,13 @@ footer{
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1441px){
     nav{
         width:98%;
     }
     
     .apresentacao{
-        height: 1000px;
+        height: 970px;
     }
 
     .sobreSkills{
