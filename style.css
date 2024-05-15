@@ -99,6 +99,10 @@ li{
     
 }
 
+.fotoPessoal{
+    filter: drop-shadow(0 0 2em rgb(108, 57, 228));
+}
+
 
 
 .sobreSkills{
@@ -336,7 +340,7 @@ footer{
     }
     
     .apresentacao{
-        height: 800px;
+        height: 700px;
     }
 
     .sobreSkills{
