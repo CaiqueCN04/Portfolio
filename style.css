@@ -164,7 +164,6 @@ article{
     height: 900px;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.11);
     align-items: center;
     flex-direction: column;
@@ -287,6 +286,31 @@ footer{
         height: 92px;
         padding: 20px; 
     }
+
+    .projetos{
+        height: 980px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card{
+        height: 270px;
+        width: 230px;
+        font-size: 11px;
+    }
+
+    .projetos img{
+        height: 148px;
+    }
+
+    .andamento{
+        width:230px;
+    }
+
+
 }
 
 
@@ -320,6 +344,29 @@ footer{
     .sobre{
         width: 100%;
         margin-top: 27px;
+    }
+
+    .projetos{
+        height: 980px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card{
+        height: 270px;
+        width: 230px;
+        font-size: 11px;
+    }
+
+    .projetos img{
+        height: 148px;
+    }
+
+    .andamento{
+        width:230px;
     }
 }
 
@@ -417,6 +464,24 @@ footer{
     .fotoPessoal{
         margin-left: 60px;
         align-self: self-end ;
+    }
+    .projetos{
+        height: 800px;
+    }
+   
+
+    .card{
+        height: 370px;
+        width: 330px;
+        font-size: 16px;
+    }
+
+    .projetos img{
+        height: 211px;
+    }
+
+    .andamento{
+        width:330px;
     }
 }
 
