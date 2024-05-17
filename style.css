@@ -140,12 +140,11 @@ article{
 .imgSkills{
     height: 128px;
     padding: 20px;
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .imgSkills:hover{
-    height: 120px;
-    padding: 20px; 
+    transform: scale(0.9);
 }
 
 .skills{
@@ -161,12 +160,71 @@ article{
     flex-direction: row;
 }
 
+.projetos{
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.11);
+    align-items: center;
+    flex-direction: column;
+}
+
+.projetos h1{
+    font-size: 38px;
+}
+
+.projetos img{
+    height: 256px;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.andamento{
+    width: 400px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.card{
+    background-color: #2f1f6b;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+    transition: all 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+.card-content{
+    padding: 10px;
+    margin: 6px;
+}
+
+.btn{
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover{
+    background-color: #25D366;
+}
+
 .contato{
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 0.11);
+    
     height: 500px;
     align-items: center;
 }
@@ -181,10 +239,11 @@ article{
 .imgContato{
     height: 100px;
     margin: 30px;
+    transition: all 0.5s ease;
 }
 
 .imgContato:hover{
-    height: 80px;
+    transform: scale(0.9);
     
 }
 #wpp:hover{
