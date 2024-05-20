@@ -24,21 +24,22 @@ nav {
     width: 100%;
      /* Cor de fundo da navegação */
     z-index: 1000; /* Garante que a navegação esteja sempre acima do conteúdo */
-    transition: top 5s ease; /* Adiciona transição suave ao mudar a propriedade 'top' */
+    transition: top 0.5s ease; /* Adiciona transição suave ao mudar a propriedade 'top' */
     padding: 18px;
-    transition: background-color 0.8s ease;
+    transition: all 0.5s ease;
+
     
 }
 
 .scrolled {
-    background-image: linear-gradient(to right,#4e50c7, #2f1f6b);
+    background: transparent;
+    backdrop-filter: blur(10px);
 }
 
 
 nav.fixed {
     position: fixed;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra sutil para destacar a navegação fixa */
-
 }
 
 
