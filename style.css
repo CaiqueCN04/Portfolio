@@ -25,7 +25,7 @@ nav {
      /* Cor de fundo da navegação */
     z-index: 1000; /* Garante que a navegação esteja sempre acima do conteúdo */
     transition: top 0.5s ease; /* Adiciona transição suave ao mudar a propriedade 'top' */
-    padding: 18px;
+    padding: 12px;
     transition: all 0.5s ease;
 
     
