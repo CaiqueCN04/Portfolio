@@ -380,7 +380,10 @@ footer{
     }
    
 
-   
+    .scrolled {
+        background: transparent;
+        backdrop-filter: blur(10px);
+    }
     .fotoPessoal{
         height: 500px;
     }
