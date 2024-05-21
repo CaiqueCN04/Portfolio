@@ -381,7 +381,7 @@ footer{
    
 
     .scrolled {
-        background: transparent;
+        background-image: linear-gradient(to right,#4e50c7, #2f1f6b);
         backdrop-filter: blur(10px);
     }
     .fotoPessoal{
