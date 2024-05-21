@@ -420,21 +420,16 @@ footer{
         margin-top: 50px;  
     }
     .imgContato{
-        height: 80px;
+        height: 50px;
         margin: 30px;
         
     }
     
-    .imgContato:hover{
-        height: 70px;
-        
-    }
+   
     #email{
-        height: 73px;
+        height: 43px;
     }
-    #email:hover{
-        height: 63px;
-    }
+    
 
     .conhecimento:hover{
         margin-bottom: 30px;
